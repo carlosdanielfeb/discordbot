@@ -1,12 +1,13 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "Meu bot Discord rodando no Docker",
+  "description": "Bot Discord via Docker",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.0.0"
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
   }
 }
